@@ -70,7 +70,7 @@ actions:
     runas: currentUserElevated
 
   - !cmd:
-    command: 'HWID_Activation.cmd'
+    command: 'MAS_AIO.cmd /HWID'
     exeDir: true
     wait: true
     runas: currentUserElevated
